@@ -1,0 +1,130 @@
+/* 
+    Assignment Solution for Module 3
+    Written By Paul Ruddock
+*/
+
+/** DEFAULTS **/
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    min-height: 80px;
+    margin-bottom: 0px;
+}
+
+.container {
+    min-height: 80px;
+    width: 100%;
+}
+
+.navbar-header {
+    min-height: 80px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-nav{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    min-height: 80px;
+    padding-left: 40px;
+}
+
+.navbar-brand h1 {
+    font-size: 2.2em;
+    vertical-align: middle;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+#nav-list a {
+    font-size: 1.5em;
+    text-align: center;
+    background: #fff;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+#nav-list hr {
+    margin: 0px;
+    opacity: 0;
+}
+
+
+/** MAIN CONTENT **/
+
+#main-content h1 {
+    padding: 10px;
+    margin-top:
+}
+
+#main-content hr {
+    color: #61122f;
+    margin: 0px;
+    opacity: 0;
+}
+
+div.menu-section {
+    min-height: 700px;
+    background-color: #9F9F9C;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-section a {
+    position: absolute;
+    bottom: 10px;
+}
+
+.menu-section p {
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+/** FOOTER **/
+
+.panel-footer {
+    margin-top: 80px;
+    background-color: #222;
+    border-top: 0px;
+}
+
+.panel-footer p {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/** MEDIA CONTENT **/
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
