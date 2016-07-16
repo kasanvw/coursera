@@ -25,6 +25,11 @@
 // xxxx.xxxx = byeSpeaker;
 
 
+
+
+// Solution to modeule 4
+
+
 (function(window) {
 
     var byeSpeaker = {};

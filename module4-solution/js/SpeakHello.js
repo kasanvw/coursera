@@ -25,8 +25,8 @@
 
 
 
-// Solution to modeule 4
 
+// Solution to modeule 4
 
 
 (function(window) {
